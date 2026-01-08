@@ -162,13 +162,15 @@ PRODUCT_PACKAGES += \
     libEGL_adreno \
     libGLESv1_CM_adreno \
     libGLESv2_adreno \
+    libVkLayer_ADRENO_qprofiler \
     libq3dtools_adreno \
     libq3dtools_esx \
     vulkan.adreno \
     libC2D2 \
     libCB \
     libOpenCL \
-    libVkLayer_q3dtools \
+    libOpenCL_adreno \
+    libadreno_app_profiles \
     libadreno_utils \
     libadsprpc \
     libc2d30_bltlib \
@@ -178,8 +180,11 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libgpudataproducer \
     libgsl \
+    libkcl \
+    libkernelmanager \
     libllvm-glnext \
     libllvm-qcom \
+    libllvm-qgl \
     libmdsprpc \
     libmmosal_vendor \
     libscveCommon \
@@ -202,6 +207,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
+    vendor.qti.qspmhal@1.0 \
     btaudio_offload_if \
     audio.bluetooth_qti.default \
     sound_trigger.primary.lito \
@@ -592,9 +598,9 @@ PRODUCT_PACKAGES += \
     dpmd
 
 PRODUCT_PACKAGES += \
-    vendor_lib_libEGL_adreno_so \
     vendor_lib_libGLESv2_adreno_so \
+    vendor_lib_libVkLayer_ADRENO_qprofiler_so \
     vendor_lib_libq3dtools_adreno_so \
-    vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
+    vendor_lib64_libVkLayer_ADRENO_qprofiler_so \
     vendor_lib64_libq3dtools_adreno_so
