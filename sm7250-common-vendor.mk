@@ -505,6 +505,7 @@ PRODUCT_PACKAGES += \
     lib-imsvtutils \
     libaptXHD_encoder \
     libaptX_encoder \
+    libbeluga \
     libdiag_system \
     libdpmctmgr \
     libdpmfdmgr \
