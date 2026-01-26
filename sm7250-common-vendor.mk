@@ -231,7 +231,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
     libsmwrapper \
-    libsn100u_fw \
     libasphere \
     libshoebox \
     android.hardware.secure_element@1.0-impl \
@@ -390,6 +389,7 @@ PRODUCT_PACKAGES += \
     libsecureui_svcsock \
     libsettings \
     libslimclient \
+    libsn100u_fw \
     libssd \
     libsystem_health_mon \
     libtime_genoff \
